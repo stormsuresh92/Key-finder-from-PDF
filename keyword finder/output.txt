@@ -1,0 +1,20 @@
+10.1016@j.ccell.2020.03.006.pdf|{'egfr': 2, 'resistance': 76, 'kinase': 92}
+10.1016@j.ccell.2020.03.009.pdf|{'egfr': 11, 'activating': 12, 'resistance': 166, 'kinase': 16, 'cell line': 10}
+10.1016@j.ccell.2020.03.010.pdf|{'egfr': 8, 'activating': 8, 'resistance': 87, 'kinase': 59, 'cell line': 10}
+10.1016@j.ccell.2020.03.012.pdf|{'egfr': 34, 'activating': 2, 'resistance': 28, 'kinase': 2, 'cell line': 4}
+10.1016@j.ccell.2020.03.017.pdf|{'egfr': 15, 'activating': 2, 'resistance': 170, 'kinase': 9, 'cell line': 3}
+10.1038@s41416-019-0573-8.pdf|{'egfr': 342, 'activating': 9, 'resistance': 197, 'kinase': 40, 'cell line': 7}
+10.1038@s41577-019-0218-4.pdf|{'activating': 5, 'resistance': 78, 'kinase': 17, 'cell line': 8}
+10.1177@1078155220931926.pdf|{'egfr': 208, 'activating': 3, 'resistance': 43, 'kinase': 33}
+10.1186@s12943-020-01227-0.pdf|{'activating': 4, 'resistance': 142, 'kinase': 5, 'cell line': 10}
+10.3390@ijms20010146.pdf|{'egfr': 152, 'activating': 9, 'resistance': 29, 'kinase': 11}
+10.7888@juoeh.41.153.pdf|{'egfr': 198, 'activating': 30, 'resistance': 19, 'kinase': 46}
+castellanos2016.pdf|{'egfr': 219, 'activating': 10, 'resistance': 21, 'kinase': 25, 'cell line': 1}
+gelatti2019.pdf|{'egfr': 340, 'activating': 6, 'resistance': 90, 'kinase': 29}
+harrison2019.pdf|{'egfr': 521, 'activating': 4, 'resistance': 22, 'kinase': 50, 'cell line': 26}
+lu2021.pdf|{'egfr': 162, 'activating': 1, 'resistance': 10, 'kinase': 18}
+remon2018.pdf|{'egfr': 151, 'activating': 9, 'resistance': 27, 'kinase': 10, 'cell line': 5}
+shah2019.pdf|{'egfr': 254, 'activating': 7, 'resistance': 68, 'kinase': 38}
+sigismund2017.pdf|{'egfr': 274, 'activating': 1, 'resistance': 16, 'kinase': 68}
+suda2009.pdf|{'egfr': 89, 'activating': 8, 'resistance': 48, 'kinase': 36, 'cell line': 2}
+zhang2016.pdf|{'egfr': 84, 'activating': 2, 'kinase': 5}
