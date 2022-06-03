@@ -1,0 +1,19 @@
+10.1016@j.ccell.2020.03.006.pdf	{'egfr': 2}
+10.1016@j.ccell.2020.03.009.pdf	{'egfr': 11, 'deletion': 8}
+10.1016@j.ccell.2020.03.012.pdf	{'egfr': 34, 'T790M': 7, 'L858R': 4, '19del': 3, 'deletion': 2}
+10.1016@j.ccell.2020.03.017.pdf	{'egfr': 15, 'T790M': 2}
+10.1038@s41416-019-0573-8.pdf	{'egfr': 342, 'T790M': 95, 'L858R': 11, '19del': 6, 'deletion': 5}
+10.1038@s41577-019-0218-4.pdf	{'deletion': 8}
+10.1177@1078155220931926.pdf	{'egfr': 208, 'T790M': 35, 'L858R': 10, 'deletion': 3}
+10.1186@s12943-020-01227-0.pdf	{'deletion': 8}
+10.3390@ijms20010146.pdf	{'egfr': 152, 'T790M': 30, 'L858R': 2, 'deletion': 2}
+10.7888@juoeh.41.153.pdf	{'egfr': 198, 'T790M': 24, 'L858R': 10, 'deletion': 9}
+castellanos2016.pdf	{'egfr': 219, 'T790M': 30, 'L858R': 50, 'deletion': 28}
+gelatti2019.pdf	{'egfr': 340, 'T790M': 43, 'L858R': 6, '19del': 6, 'deletion': 4}
+harrison2019.pdf	{'egfr': 521, 'T790M': 20, 'L858R': 38, '19del': 24, 'deletion': 16}
+lu2021.pdf	{'egfr': 162, 'T790M': 7, 'L858R': 3, 'deletion': 2}
+remon2018.pdf	{'egfr': 151, 'T790M': 102, 'L858R': 5}
+shah2019.pdf	{'egfr': 254, 'T790M': 43, 'L858R': 28, 'deletion': 4}
+sigismund2017.pdf	{'egfr': 274, 'T790M': 1, 'L858R': 1, 'deletion': 1}
+suda2009.pdf	{'egfr': 89, 'T790M': 67, 'L858R': 15, 'deletion': 2}
+zhang2016.pdf	{'egfr': 84, 'L858R': 2, 'deletion': 2}

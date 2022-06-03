@@ -1,1 +1,1 @@
-egfr|activating|resistance|kinase|cell line
+egfr,T790M,L858R,19del,deletion
