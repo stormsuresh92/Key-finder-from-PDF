@@ -1,33 +1,41 @@
 import fitz
-import os
 import glob
+import csv
 
-for pdf_files in glob.glob('*.pdf'):
-	document = fitz.open(pdf_files)
-	document_page_number = document.pageCount
-	keyword_file = open ('input_keywords.txt', 'r')
-	keywords = keyword_file.read()
-	keyword_sep = keywords.split(',')
-	k = {}
-	for keywords in keyword_sep:
-		c=0
-		for page in range(0, document_page_number):
-			content = document[page]
-			keyword = keywords.strip()
-			keys = content.search_for(keywords)
-			for key in keys:
-				c+=1
-		if c>=1:
-			k[keywords]=c
-	if len(k)>0:
-		print(pdf_files, '->', k)
-		output = open('keyword dataset.tsv', 'a')
-		output.write(pdf_files + '\t' + str(k) + '\n')
-	else:
-		print(pdf_files, '->', k)
-		output = open('keyword dataset.tsv', 'a')
-		output.write(pdf_files + '\t' + 'Image format OR Keyword not present' + '\n')
+# Open and read keywords from the file
+with open('input_keywords.txt', 'r') as keyword_file:
+    keywords = keyword_file.read().split(',')
 
-		
+# Prepare CSV file for writing output
+with open('keyword_dataset.csv', 'w', newline='') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(["PDF Name", "Keyword", "Count"])  # Write the header row
 
+    # Process all PDF files in the current directory
+    for pdf_file in glob.glob('*.pdf'):
+        document = fitz.open(pdf_file)  # Open PDF file
+        page_count = document.page_count  # Get total number of pages
 
+        keyword_counts = {}  # Store counts of each keyword in the document
+
+        # Loop through each keyword
+        for keyword in map(str.strip, keywords):
+            count = 0
+            # Loop through each page
+            for page_number in range(page_count):
+                page = document[page_number]
+                # Search for keyword instances = page.search_for(keyword)
+                count += len(instances)
+            # Add keyword count to the dictionary if found
+            if count > 0:
+                keyword_counts[keyword] = count
+
+        # Write keyword counts to the CSV file
+        if keyword_counts:
+            for key, value in keyword_counts.items():
+                csvwriter.writerow([pdf_file, key, value])
+            print(pdf_file, '->', keyword_counts)
+        else:
+            # Handle case where no keywords are found
+            csvwriter.writerow([pdf_file, "No Keywords Found", 0])
+            print(pdf_file, '->', 'Image format OR Keyword not present')
