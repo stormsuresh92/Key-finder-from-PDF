@@ -1,0 +1,1 @@
+EGFR,IC50,L858R,T790M,Mutation
